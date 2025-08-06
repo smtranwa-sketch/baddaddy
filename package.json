@@ -33,4 +33,11 @@
         "socket.io": "^4.4.1",
         "uuid": "^9.0.1"
     }
+    {
+         "name": "my-package",
+         "scripts": {
+         "build": "babel src -d lib",
+         "test": "jest"
+  }
+}
 }
